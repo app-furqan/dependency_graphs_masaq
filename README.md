@@ -61,13 +61,19 @@ Here are the generated dependency graphs for Surah Al-Fatiha (Surah 1):
 
 ## Data Source
 
-This project uses the **MASAQ** dataset:
+This project uses the **MASAQ** dataset.
+
+**Description**:
+The Morphologically-Analyzed and Syntactically-Annotated Quran (MASAQ) dataset is a high-quality, annotated resource designed to advance Arabic Natural Language Processing (NLP). Covering the entire Quran, MASAQ includes over 131K morphological and 123K syntactic entries, verified by expert linguists using traditional i'rab methodologies. Available in multiple formats, it supports a range of applications—from teaching Arabic grammar to enhancing NLP tools like parsers and taggers. By enabling precise language analysis, MASAQ fosters advancements in Arabic NLP and cross-linguistic research, licensed under Creative Commons for ethical use.
+
+**Bibliographic Details**:
 *   **Title**: MASAQ: Morphologically and Syntactically-Annotated Quran Dataset
-*   **Author**: Majdi Sawalha
-*   **Source**: [Mendeley Data](https://data.mendeley.com/datasets/9yvrzxktmr/2)
-*   **DOI**: 10.17632/9yvrzxktmr.2
+*   **Authors**: Majdi Sawalha, Sane Yagi, Faisal Alshargi, Bassam Hammo, Abdallah Alshdaifat
+*   **Publisher**: Mendeley Data
+*   **DOI**: 10.17632/9yvrzxktmr.6
+*   **URL**: [https://data.mendeley.com/datasets/9yvrzxktmr/6](https://data.mendeley.com/datasets/9yvrzxktmr/6)
 *   **Citation**:
-    > Sawalha, Majdi (2024), “MASAQ: Morphologically and Syntactically-Annotated Quran Dataset”, Mendeley Data, V2, doi: 10.17632/9yvrzxktmr.2
+    > Sawalha, Majdi; Yagi, Sane; Alshargi, Faisal; Hammo, Bassam; Alshdaifat, Abdallah (2024), “MASAQ: Morphologically and Syntactically-Annotated Quran Dataset”, Mendeley Data, V6, doi: 10.17632/9yvrzxktmr.6
 
 ## Contributing
 
