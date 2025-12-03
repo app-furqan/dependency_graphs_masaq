@@ -2473,31 +2473,31 @@ def build_arc_path(
     # rx = half the horizontal distance, ry = vertical radius for arc curvature
     rx = dx / 2.0
     
-    # Compute ry with a proportional constraint to keep arcs flat
-    # The key insight: ry/rx ratio determines curvature appearance
-    # Smaller ratio = flatter arc, larger ratio = more curved/pregnant
+    # Compute ry with a proportional constraint to avoid "pregnant" arcs
+    # Base ry is proportional to rx (flatter ellipse)
+    # For short arcs (small rx), use smaller ry; for long arcs, use flatter ratios
     if rx < 40.0:
-        # Short arcs: allow more curvature (50% ratio) for visibility
-        ry_ratio = 0.5
-        base_ry = max(20.0, rx * ry_ratio)
+        # Short arcs: ry = 50% of rx, minimum 15
+        base_ry = max(15.0, rx * 0.5)
     elif rx < 80.0:
-        # Medium arcs: moderate curvature (40% ratio)
-        ry_ratio = 0.4
-        base_ry = rx * ry_ratio
+        # Medium arcs: ry = 40% of rx
+        base_ry = rx * 0.4
     elif rx < 150.0:
-        # Long arcs: flatter (30% ratio)
-        ry_ratio = 0.3
-        base_ry = rx * ry_ratio
+        # Long arcs: ry = 30% of rx
+        base_ry = rx * 0.3
     else:
-        # Very long arcs: even flatter (25% ratio) to avoid bulging
-        ry_ratio = 0.25
-        base_ry = rx * ry_ratio
+        # Very long arcs: ry = 25% of rx for flatter appearance
+        base_ry = rx * 0.25
     
-    # For very long arcs, cap ry even if min_ry is higher (visual preference over clearance)
-    max_ry_for_span = rx * 0.4 if rx > 100 else rx * 0.5
-    effective_min_ry = min(min_ry, max_ry_for_span) if rx > 100 else min_ry
+    # For long arcs, cap the min_ry to prevent excessive bulging from clearance requirements
+    # Visual aesthetics take priority over perfect clearance for very long arcs
+    if rx > 100.0:
+        max_allowed_ry = rx * 0.4  # Max 40% ratio for long arcs
+        effective_min_ry = min(min_ry, max_allowed_ry)
+    else:
+        effective_min_ry = min_ry
     
-    # Ensure minimum ry for label clearance (but capped for long arcs)
+    # Clamp ry: at least effective_min_ry for clearance, but proportional for aesthetics
     ry = max(effective_min_ry, base_ry)
     
     # To make arc curve DOWNWARD (convex below the line):
@@ -2598,7 +2598,6 @@ def render_edges(
         # Check if this arc spans over a line group and needs extra clearance
         x_left = min(src.circle_x, dst.circle_x)
         x_right = max(src.circle_x, dst.circle_x)
-        arc_span = x_right - x_left
         min_ry = 20.0  # default minimum radius
         
         # Skip phrase band clearance for edges that are INTERNAL to a line group
@@ -2606,10 +2605,6 @@ def render_edges(
         src_group = token_to_group.get(edge.src, -1)
         dst_group = token_to_group.get(edge.dst, -2)
         is_internal_edge = (src_group == dst_group and src_group >= 0)
-        
-        # For very long arcs (spanning many words), limit the clearance requirement
-        # to keep arcs proportionally flat - they can overlap bands visually
-        max_clearance_ry = arc_span * 0.35 if arc_span > 200 else float('inf')
         
         if not is_internal_edge:
             for band_left, band_right, band_top, band_bottom in phrase_bands:
@@ -2620,8 +2615,6 @@ def render_edges(
                     # Calculate how deep the arc needs to go
                     circle_y = max(src.circle_y, dst.circle_y)
                     clearance_needed = band_bottom - circle_y + 15.0  # Extra padding
-                    # Cap clearance for long arcs to keep them flat
-                    clearance_needed = min(clearance_needed, max_clearance_ry)
                     if clearance_needed > min_ry:
                         min_ry = clearance_needed
 
@@ -3696,8 +3689,9 @@ def render_segment_svg(
             cross_segment_refs.append((anchor_id, dst_text, anchor_x, anchor_y, dst_color))
             
             # Add the edge from source to the anchor (placeholder for destination)
+            # Use destination token color for visual consistency with the bracketed text
             adjusted_edges.append(
-                Edge(edge.src, anchor_id, edge.label, edge.color)
+                Edge(edge.src, anchor_id, edge.label, dst_color)
             )
             continue
             

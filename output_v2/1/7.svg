@@ -64,14 +64,14 @@
 <text direction="rtl" text-anchor="middle" font-size="29" fill="gold" x="648.00" y="126.00">(الَّذِينَ)</text>
 <circle cx="648.00" cy="150.00" r="3.0" fill="gold"/>
 <path d="M 720.00 150.00 A 72.00 28.80 0 0 1 576.00 150.00" fill="none" stroke="cornflowerblue" stroke-width="2"/>
-<path d="M 720.00 150.00 A 36.00 46.80 0 0 1 648.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
+<path d="M 720.00 150.00 A 36.00 46.80 0 0 1 648.00 150.00" fill="none" stroke="gold" stroke-width="2"/>
 <path d="M 576.00 150.00 A 88.43 26.53 0 0 1 399.15 222.05" fill="none" stroke="darkgreen" stroke-width="2"/>
 <path d="M 435.90 150.00 A 36.75 20.00 0 0 1 362.40 150.00" fill="none" stroke="firebrick" stroke-width="2"/>
 <path d="M 576.00 150.00 A 129.75 51.90 0 0 1 316.50 150.00" fill="none" stroke="navy" stroke-width="2"/>
 <path d="M 138.00 150.00 A 64.50 25.80 0 0 0 267.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
 <path d="M 138.00 150.00 A 219.00 87.60 0 0 0 576.00 150.00" fill="none" stroke="navy" stroke-width="2"/>
 <polygon points="583.85,163.07 595.22,167.54 590.88,173.06" fill="cornflowerblue"/>
-<polygon points="667.66,191.70 678.70,195.04 675.04,200.56" fill="purple"/>
+<polygon points="667.66,191.70 679.35,195.23 675.47,201.09" fill="gold"/>
 <polygon points="554.43,226.02 565.47,220.80 566.52,227.75" fill="darkgreen"/>
 <polygon points="366.41,159.08 378.14,165.90 372.44,171.24" fill="firebrick"/>
 <polygon points="387.34,196.24 399.51,195.14 398.11,202.02" fill="navy"/>
@@ -80,7 +80,7 @@
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="565.00" y="169.80"></rect>
 <text direction="rtl" fill="cornflowerblue" font-family="Times New Roman" font-size="14" x="619.00" y="179.70">مضاف إليه</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="689.00" y="182.64"></rect>
-<text direction="rtl" fill="purple" font-family="Times New Roman" font-size="14" x="713.00" y="192.54">صفة</text>
+<text direction="rtl" fill="gold" font-family="Times New Roman" font-size="14" x="713.00" y="192.54">صفة</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="433.57" y="239.58"></rect>
 <text direction="rtl" fill="darkgreen" font-family="Times New Roman" font-size="14" x="487.57" y="249.48">نائب فاعل</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="357.70" y="160.00"></rect>
