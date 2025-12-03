@@ -34,12 +34,40 @@ The `generate_dependency_svg.py` script reads Quranic text, morphology, and synt
     *   `--debug`: Enable debug visualization (outlines, overlaps).
     *   `--verbose`: Print detailed logs.
 
+## Sample Output
+
+Here are the generated dependency graphs for Surah Al-Fatiha (Surah 1):
+
+### Ayah 1
+![Surah 1 Ayah 1](output_v2/1/1.svg)
+
+### Ayah 2
+![Surah 1 Ayah 2](output_v2/1/2.svg)
+
+### Ayah 3
+![Surah 1 Ayah 3](output_v2/1/3.svg)
+
+### Ayah 4
+![Surah 1 Ayah 4](output_v2/1/4.svg)
+
+### Ayah 5
+![Surah 1 Ayah 5](output_v2/1/5.svg)
+
+### Ayah 6
+![Surah 1 Ayah 6](output_v2/1/6.svg)
+
+### Ayah 7
+![Surah 1 Ayah 7](output_v2/1/7.svg)
+
 ## Data Source
 
 This project uses the **MASAQ** dataset:
-*   **Title**: MASAQ: A Multi-Modal Arabic Corpus for Quranic Analysis
+*   **Title**: MASAQ: Morphologically and Syntactically-Annotated Quran Dataset
+*   **Author**: Majdi Sawalha
 *   **Source**: [Mendeley Data](https://data.mendeley.com/datasets/9yvrzxktmr/2)
-*   **Credit**: Please cite the original authors when using this data.
+*   **DOI**: 10.17632/9yvrzxktmr.2
+*   **Citation**:
+    > Sawalha, Majdi (2024), “MASAQ: Morphologically and Syntactically-Annotated Quran Dataset”, Mendeley Data, V2, doi: 10.17632/9yvrzxktmr.2
 
 ## Contributing
 
