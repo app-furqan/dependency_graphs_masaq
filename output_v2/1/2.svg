@@ -3,11 +3,11 @@
 <svg class="syntax-graph-view" x="0.00" y="0.00" width="623.00" height="320.00" viewBox="0 0 623.00 320.00"><text direction="rtl" text-anchor="middle" font-size="42" x="509.00" y="100.00"><tspan fill="gray">الْ</tspan><tspan fill="cornflowerblue">حَمْدُ</tspan></text>
 <circle cx="509.00" cy="150.00" r="3.0" fill="cornflowerblue"/>
 <text direction="rtl" text-anchor="middle" fill="cornflowerblue" font-size="14" x="509.00" y="134.00">مبتدأ</text>
-<text direction="rtl" text-anchor="middle" font-size="42" x="387.50" y="100.00"><tspan fill="gold">لِ</tspan><tspan fill="purple">لَّهِ</tspan></text>
-<circle cx="420.50" cy="150.00" r="3.0" fill="gold"/>
-<text direction="rtl" text-anchor="middle" fill="gold" font-size="14" x="420.50" y="134.00">لام التعليل</text>
+<text direction="rtl" text-anchor="middle" font-size="42" x="387.50" y="100.00"><tspan fill="firebrick">لِ</tspan><tspan fill="purple">لَّهِ</tspan></text>
+<circle cx="420.50" cy="150.00" r="3.0" fill="firebrick"/>
+<text direction="rtl" text-anchor="middle" fill="firebrick" font-size="14" x="420.50" y="134.00">حرف جر</text>
 <circle cx="371.00" cy="150.00" r="3.0" fill="purple"/>
-<text direction="rtl" text-anchor="middle" fill="purple" font-size="14" x="371.00" y="150.00">علم</text>
+<text direction="rtl" text-anchor="middle" fill="purple" font-size="14" x="371.00" y="134.00">علم</text>
 <text direction="rtl" text-anchor="middle" font-size="42" x="298.00" y="100.00"><tspan fill="cornflowerblue">رَبِّ</tspan></text>
 <circle cx="298.00" cy="150.00" r="3.0" fill="cornflowerblue"/>
 <text direction="rtl" text-anchor="middle" fill="cornflowerblue" font-size="14" x="298.00" y="134.00">صفة</text>

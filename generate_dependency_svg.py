@@ -683,10 +683,6 @@ def _style_from_masaq_row(row: Mapping[str, object] | sqlite3.Row) -> Tuple[str,
     segmented = str(_row_get(row, "Segmented_Word", "")).strip()
     morph_type = str(_row_get(row, "Morph_Type", "")).lower()
 
-    # Special-case lam al-ta'lil before generic handling.
-    if morph_tag == "PREP" and segmented in {"ل", "لِ", "لْ"}:
-        return "لام التعليل", "gold"
-
     label = None
     color = None
 
@@ -1685,14 +1681,6 @@ def build_spec_from_sources(
                 # If the preposition is part of a line group (jar majroor), start the edge from the group
                 src_id = line_group_map.get(token_id, token_id)
                 add_edge(src_id, verb_token, "orange", "متعلق")
-
-            if tokens[token_id]["label"] == "لام التعليل":
-                verb_token = find_next_root(
-                    idx, lambda _tid, _meta: _meta.get("morph_tag") in VERB_TAGS
-                )
-                if verb_token:
-                    # Edge FROM lam al-ta'lil TO verb
-                    add_edge(token_id, verb_token, "orange", "تعليل")
 
         if morph_tag in {"NEG_PART", "PROH_PART"}:
             verb_token = find_next_root(
