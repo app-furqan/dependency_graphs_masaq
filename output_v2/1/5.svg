@@ -23,18 +23,18 @@
 <text text-anchor="middle" fill="seagreen" font-size="18" x="406.46" y="271.70">جملة فعلية</text>
 <path d="M 406.12 150.00 A 67.16 26.86 0 0 1 271.80 150.00" fill="none" stroke="seagreen" stroke-width="2"/>
 <path d="M 467.62 150.00 A 61.16 44.87 0 0 1 345.30 150.00" fill="none" stroke="navy" stroke-width="2"/>
-<path d="M 406.12 150.00 A 68.44 54.75 0 0 0 543.00 150.00" fill="none" stroke="slategray" stroke-width="2"/>
+<path d="M 406.12 150.00 A 68.44 62.87 0 0 0 543.00 150.00" fill="none" stroke="slategray" stroke-width="2"/>
 <path d="M 113.25 150.00 A 79.28 31.71 0 0 0 271.80 150.00" fill="none" stroke="slategray" stroke-width="2"/>
 <polygon points="299.49,171.73 311.70,171.63 309.74,178.37" fill="seagreen"/>
-<polygon points="378.70,189.98 390.88,190.78 388.43,197.36" fill="navy"/>
-<polygon points="505.63,198.78 498.24,204.75 496.18,199.69" fill="slategray"/>
+<polygon points="363.21,181.72 374.72,185.81 370.57,191.47" fill="navy"/>
+<polygon points="522.96,194.45 518.10,202.62 514.41,198.60" fill="slategray"/>
 <polygon points="256.66,168.64 250.00,175.42 247.37,170.64" fill="slategray"/>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="314.96" y="167.87"></rect>
 <text direction="rtl" fill="seagreen" font-family="Times New Roman" font-size="14" x="338.96" y="177.77">فعل</text>
-<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="372.51" y="160.00"></rect>
-<text direction="rtl" fill="navy" font-family="Times New Roman" font-size="14" x="396.51" y="169.90">عطف</text>
-<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="96.00" x="436.51" y="160.00"></rect>
-<text direction="rtl" fill="slategray" font-family="Times New Roman" font-size="14" x="484.51" y="169.90">مفعول به</text>
+<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="382.46" y="185.87"></rect>
+<text direction="rtl" fill="navy" font-family="Times New Roman" font-size="14" x="406.46" y="195.77">عطف</text>
+<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="96.00" x="426.56" y="203.87"></rect>
+<text direction="rtl" fill="slategray" font-family="Times New Roman" font-size="14" x="474.56" y="213.77">مفعول به</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="96.00" x="144.53" y="172.71"></rect>
 <text direction="rtl" fill="slategray" font-family="Times New Roman" font-size="14" x="192.53" y="182.61">مفعول به</text></svg>
 </svg>

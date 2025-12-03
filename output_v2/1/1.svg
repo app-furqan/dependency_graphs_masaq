@@ -17,11 +17,11 @@
 <path d="M 580.50 150.00 A 24.75 20.00 0 0 1 531.00 150.00" fill="none" stroke="firebrick" stroke-width="2"/>
 <path d="M 531.00 150.00 A 46.50 20.00 0 0 1 438.00 150.00" fill="none" stroke="cornflowerblue" stroke-width="2"/>
 <path d="M 294.00 150.00 A 72.00 28.80 0 0 0 438.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
-<path d="M 126.00 150.00 A 84.00 33.60 0 0 0 294.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
+<path d="M 126.00 150.00 A 84.00 25.20 0 0 0 294.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
 <polygon points="533.70,159.08 543.93,168.00 537.33,172.16" fill="firebrick"/>
 <polygon points="443.07,159.08 454.27,163.94 449.74,169.31" fill="cornflowerblue"/>
 <polygon points="398.69,175.66 388.52,181.12 387.20,174.62" fill="purple"/>
-<polygon points="248.14,179.94 237.97,185.39 236.65,178.90" fill="purple"/>
+<polygon points="248.14,172.45 237.71,177.40 236.71,170.85" fill="purple"/>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="540.12" y="160.00"></rect>
 <text direction="rtl" fill="firebrick" font-family="Times New Roman" font-size="14" x="570.12" y="169.90">مجرور</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="416.12" y="160.00"></rect>

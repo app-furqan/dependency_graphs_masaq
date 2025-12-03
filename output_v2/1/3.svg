@@ -6,8 +6,8 @@
 <text direction="rtl" text-anchor="middle" font-size="42" x="126.00" y="100.00"><tspan fill="gray">ال</tspan><tspan fill="purple">رَّحِيمِ</tspan></text>
 <circle cx="126.00" cy="150.00" r="3.0" fill="purple"/>
 <text direction="rtl" text-anchor="middle" fill="purple" font-size="14" x="126.00" y="134.00">علم</text>
-<path d="M 126.00 150.00 A 84.00 33.60 0 0 0 294.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
-<polygon points="248.14,179.94 237.97,185.39 236.65,178.90" fill="purple"/>
+<path d="M 126.00 150.00 A 84.00 25.20 0 0 0 294.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
+<polygon points="248.14,172.45 237.71,177.40 236.71,170.85" fill="purple"/>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="186.00" y="194.16"></rect>
 <text direction="rtl" fill="purple" font-family="Times New Roman" font-size="14" x="210.00" y="204.06">صفة</text></svg>
 </svg>

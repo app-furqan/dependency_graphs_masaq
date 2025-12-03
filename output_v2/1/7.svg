@@ -19,26 +19,26 @@
 <line x1="203.70" y1="221.05" x2="277.20" y2="221.05" stroke="seagreen" stroke-width="2" />
 <circle cx="240.45" cy="231.05" r="3.0" fill="seagreen" />
 <text text-anchor="middle" fill="seagreen" font-size="18" x="240.45" y="257.05">جملة فعلية</text>
-<path d="M 408.00 150.00 A 83.78 33.51 0 0 1 240.45 231.05" fill="none" stroke="gold" stroke-width="2"/>
-<polygon points="376.46,238.78 387.39,233.33 388.59,240.24" fill="gold"/>
-<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="300.23" y="255.56"></rect>
-<text direction="rtl" fill="gold" font-family="Times New Roman" font-size="14" x="324.23" y="265.46">صلة</text>
+<path d="M 408.00 150.00 A 83.78 25.13 0 0 1 240.45 231.05" fill="none" stroke="gold" stroke-width="2"/>
+<polygon points="406.55,231.32 417.44,225.77 418.69,232.68" fill="gold"/>
+<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="300.23" y="247.18"></rect>
+<text direction="rtl" fill="gold" font-family="Times New Roman" font-size="14" x="324.23" y="257.08">صلة</text>
 <path d="M 277.20 150.00 A 36.75 20.00 0 0 1 203.70 150.00" fill="none" stroke="cornflowerblue" stroke-width="2"/>
 <path d="M 540.00 150.00 A 66.00 26.40 0 0 1 408.00 150.00" fill="none" stroke="cornflowerblue" stroke-width="2"/>
 <path d="M 144.90 150.00 A 36.75 20.00 0 0 1 71.40 150.00" fill="none" stroke="firebrick" stroke-width="2"/>
-<path d="M 108.15 222.05 A 84.52 33.81 0 0 0 277.20 150.00" fill="none" stroke="orange" stroke-width="2"/>
+<path d="M 108.15 222.05 A 84.52 25.95 0 0 0 277.20 150.00" fill="none" stroke="orange" stroke-width="2"/>
 <polygon points="207.71,159.08 218.26,165.22 213.14,170.02" fill="cornflowerblue"/>
 <polygon points="415.19,161.99 426.56,166.45 422.23,171.97" fill="cornflowerblue"/>
 <polygon points="75.41,159.08 87.14,165.90 81.44,171.24" fill="firebrick"/>
-<polygon points="311.29,199.79 307.27,211.33 301.58,207.20" fill="orange"/>
+<polygon points="335.60,192.79 333.49,204.82 327.21,201.67" fill="orange"/>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="216.45" y="161.00"></rect>
 <text direction="rtl" fill="cornflowerblue" font-family="Times New Roman" font-size="14" x="240.45" y="170.90">فاعل</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="420.00" y="167.40"></rect>
 <text direction="rtl" fill="cornflowerblue" font-family="Times New Roman" font-size="14" x="474.00" y="177.30">مضاف إليه</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="78.15" y="161.00"></rect>
 <text direction="rtl" fill="firebrick" font-family="Times New Roman" font-size="14" x="108.15" y="170.90">مجرور</text>
-<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="162.68" y="246.86"></rect>
-<text direction="rtl" fill="orange" font-family="Times New Roman" font-size="14" x="192.68" y="256.76">متعلق</text>
+<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="162.68" y="239.00"></rect>
+<text direction="rtl" fill="orange" font-family="Times New Roman" font-size="14" x="192.68" y="248.90">متعلق</text>
 <line x1="71.40" y1="212.05" x2="144.90" y2="212.05" stroke="darkred" stroke-width="2"/>
 <circle cx="108.15" cy="222.05" r="3.0" fill="darkred"/>
 <text text-anchor="middle" fill="darkred" font-size="18" x="108.15" y="250.05">جار ومجرور</text></svg>
@@ -65,32 +65,32 @@
 <circle cx="648.00" cy="150.00" r="3.0" fill="gold"/>
 <path d="M 720.00 150.00 A 72.00 28.80 0 0 1 576.00 150.00" fill="none" stroke="cornflowerblue" stroke-width="2"/>
 <path d="M 720.00 150.00 A 36.00 46.80 0 0 1 648.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
-<path d="M 576.00 150.00 A 88.43 35.37 0 0 1 399.15 222.05" fill="none" stroke="darkgreen" stroke-width="2"/>
+<path d="M 576.00 150.00 A 88.43 26.53 0 0 1 399.15 222.05" fill="none" stroke="darkgreen" stroke-width="2"/>
 <path d="M 435.90 150.00 A 36.75 20.00 0 0 1 362.40 150.00" fill="none" stroke="firebrick" stroke-width="2"/>
-<path d="M 576.00 150.00 A 129.75 60.00 0 0 1 316.50 150.00" fill="none" stroke="navy" stroke-width="2"/>
+<path d="M 576.00 150.00 A 129.75 51.90 0 0 1 316.50 150.00" fill="none" stroke="navy" stroke-width="2"/>
 <path d="M 138.00 150.00 A 64.50 25.80 0 0 0 267.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
-<path d="M 138.00 150.00 A 219.00 60.00 0 0 0 576.00 150.00" fill="none" stroke="navy" stroke-width="2"/>
+<path d="M 138.00 150.00 A 219.00 87.60 0 0 0 576.00 150.00" fill="none" stroke="navy" stroke-width="2"/>
 <polygon points="583.85,163.07 595.22,167.54 590.88,173.06" fill="cornflowerblue"/>
 <polygon points="667.66,191.70 678.70,195.04 675.04,200.56" fill="purple"/>
-<polygon points="527.68,233.89 538.81,228.86 539.74,235.82" fill="darkgreen"/>
+<polygon points="554.43,226.02 565.47,220.80 566.52,227.75" fill="darkgreen"/>
 <polygon points="366.41,159.08 378.14,165.90 372.44,171.24" fill="firebrick"/>
-<polygon points="387.34,203.46 399.54,202.73 397.93,209.56" fill="navy"/>
+<polygon points="387.34,196.24 399.51,195.14 398.11,202.02" fill="navy"/>
 <polygon points="231.78,172.99 221.62,178.44 220.29,171.95" fill="purple"/>
-<polygon points="511.86,192.43 501.50,198.90 499.64,192.13" fill="navy"/>
+<polygon points="511.86,211.94 502.30,219.55 499.69,213.03" fill="navy"/>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="565.00" y="169.80"></rect>
 <text direction="rtl" fill="cornflowerblue" font-family="Times New Roman" font-size="14" x="619.00" y="179.70">مضاف إليه</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="689.00" y="182.64"></rect>
 <text direction="rtl" fill="purple" font-family="Times New Roman" font-size="14" x="713.00" y="192.54">صفة</text>
-<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="433.57" y="248.42"></rect>
-<text direction="rtl" fill="darkgreen" font-family="Times New Roman" font-size="14" x="487.57" y="258.32">نائب فاعل</text>
+<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="108.00" x="433.57" y="239.58"></rect>
+<text direction="rtl" fill="darkgreen" font-family="Times New Roman" font-size="14" x="487.57" y="249.48">نائب فاعل</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="357.70" y="160.00"></rect>
 <text direction="rtl" fill="firebrick" font-family="Times New Roman" font-size="14" x="387.70" y="169.90">مجرور</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="433.70" y="160.00"></rect>
 <text direction="rtl" fill="navy" font-family="Times New Roman" font-size="14" x="457.70" y="169.90">عطف</text>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="48.00" x="178.50" y="189.48"></rect>
 <text direction="rtl" fill="purple" font-family="Times New Roman" font-size="14" x="202.50" y="199.38">حرف</text>
-<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="327.00" y="201.00"></rect>
-<text direction="rtl" fill="navy" font-family="Times New Roman" font-size="14" x="357.00" y="210.90">معطوف</text>
+<rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="60.00" x="327.00" y="228.60"></rect>
+<text direction="rtl" fill="navy" font-family="Times New Roman" font-size="14" x="357.00" y="238.50">معطوف</text>
 <line x1="362.40" y1="212.05" x2="435.90" y2="212.05" stroke="darkred" stroke-width="2"/>
 <circle cx="399.15" cy="222.05" r="3.0" fill="darkred"/>
 <text text-anchor="middle" fill="darkred" font-size="18" x="399.15" y="250.05">جار ومجرور</text></svg>

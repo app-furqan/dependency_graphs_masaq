@@ -15,10 +15,10 @@
 <circle cx="435.45" cy="265.07" r="3.0" fill="seagreen" />
 <text text-anchor="middle" fill="seagreen" font-size="18" x="435.45" y="291.07">جملة فعلية</text>
 <path d="M 528.90 150.00 A 36.75 20.00 0 0 1 455.40 150.00" fill="none" stroke="slategray" stroke-width="2"/>
-<path d="M 150.00 150.00 A 96.00 38.40 0 0 0 342.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
+<path d="M 150.00 150.00 A 96.00 28.80 0 0 0 342.00 150.00" fill="none" stroke="purple" stroke-width="2"/>
 <path d="M 528.90 150.00 A 93.45 38.00 0 0 1 342.00 150.00" fill="none" stroke="slategray" stroke-width="2"/>
 <polygon points="459.41,159.08 467.62,163.86 463.63,167.59" fill="slategray"/>
-<polygon points="289.58,184.21 279.42,189.67 278.09,183.17" fill="purple"/>
+<polygon points="289.58,175.66 279.16,180.61 278.16,174.05" fill="purple"/>
 <polygon points="369.37,176.87 378.83,177.77 376.77,182.83" fill="slategray"/>
 <rect class="edge-label" fill="rgba(255,255,255,0.705)" height="18.00" width="96.00" x="444.15" y="161.00"></rect>
 <text direction="rtl" fill="slategray" font-family="Times New Roman" font-size="14" x="492.15" y="170.90">مفعول به</text>
