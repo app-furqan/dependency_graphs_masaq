@@ -1,5 +1,9 @@
 # Dependency Graphs MASAQ
 
+> **⚠️ WARNING: DRAFT WORK**
+>
+> This repository and its contents are currently in a **DRAFT** state. The code, data, and documentation are subject to change without notice. Use with caution.
+
 **Status: DRAFT**
 
 This repository contains tools to generate dependency graphs for Quranic verses using the MASAQ database.
